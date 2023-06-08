@@ -45,6 +45,13 @@ B2: chạy hàm để tạo script của shape <p>
 Tạo script shape với hình dạng polygon ghi vào file <p>
 
 ## Create Place Pin
+<img src="./img/img_0608_ExPlacePin.png"> <p>
+1. group A gồm các pin *O_*
+2. group B gồm các pin *x0a*
+3. group C gồm các pin *I_*
+4. group D các chân còn lại (Chứa các chân clk)
+Yêu cầu đặt pin ở layer M4 hoặc M5 <p>
+Size Depth: 0.25 width: 0.05 (Nhân 2 cho with ở group D) <p>
 
 ### Tạo script Place Pin
 <img src="./img/img_0608_PlacePinForShape.png"> <p>
