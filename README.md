@@ -13,7 +13,7 @@ autoTool : init run Innovus <p>
 
 B1: Tạo hình dạng shape thông qua GUI <p>
 B2: chạy hàm để tạo script của shape <p>
-Tạo script shape với hình dạng hình bình hành cơ bản gồm: hình vuông và hình chữ nhật <p>
+Tạo script shape với hình dạng hình bình hành cơ bản gồm: hình vuông và hình chữ nhật ghi vào file <p>
 
 
 
