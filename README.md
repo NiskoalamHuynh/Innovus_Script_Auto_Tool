@@ -8,4 +8,13 @@ autoTool : init run Innovus <p>
 
 ## Hàm quan trọng trong việc FloorPlan
 
+### Tạo script Shape FloorPlan
+<img src="./img/img_0608_GenScriptCreateFloorPlanShape.png"> <p>
+
+B1: Tạo hình dạng shape thông qua GUI 
+B2: chạy hàm để tạo script của shape 
+Tạo script shape với hình dạng hình bình hành cơ bản gồm: hình vuông và hình chữ nhật
+
+
+
 
