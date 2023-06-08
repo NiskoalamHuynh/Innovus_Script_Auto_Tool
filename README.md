@@ -16,5 +16,10 @@ B2: chạy hàm để tạo script của shape <p>
 Tạo script shape với hình dạng hình bình hành cơ bản gồm: hình vuông và hình chữ nhật ghi vào file <p>
 
 
+### Tạo script Shape FloorPlan Polygon
+<img src="./img/img_0608_GenScriptCreateFloorPlanShapePolygon.png"> <p>
 
+B1: Tạo hình dạng shape từ hình bình hành trước đó sau đó tạo hình polygon thông qua GUI <p>
+B2: chạy hàm để tạo script của shape <p>
+Tạo script shape với hình dạng polygon ghi vào file <p>
 
