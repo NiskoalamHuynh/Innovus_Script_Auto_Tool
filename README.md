@@ -24,6 +24,11 @@ autoTool : init run Innovus <p>
 10. Thiết đặt rule cho đường clock và signal
 
 ## Create Shape
+### Mẫu yêu thiết kế hình dạng
+<img src="./img/img_0608_ExFloorPlan.png"> <p>
+<img src="./img/img_0608_ExFloorPlan1.png"> <p>
+1. Yêu cầu Core2Die 0.5um
+2. Tạo routeBlkage từ die2core 0.5um
 
 ### Tạo script Shape FloorPlan
 <img src="./img/img_0608_GenScriptCreateFloorPlanShape.png"> <p>
