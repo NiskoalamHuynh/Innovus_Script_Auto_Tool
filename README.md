@@ -6,7 +6,7 @@ autoTool : init run Innovus <p>
 <img src="./img/img_0608_cshrc.png"> <p>
 > alias runInnovus 'setenv LM_LICENSE_FILE 5280@msoca-ls1 ; /tools/cadence/Innovus_21.15.000/bin/innovus  -64 -win -init ~/autoTool/autoTool.tcl -log ./innovus_logs/innovus.log -wait 120' 
 
-## Hàm quan trọng trong việc FloorPlan
+# Hàm quan trọng trong việc FloorPlan
 
 ### Từng bước FloorPlan:
 <img src="./img/img_0608_StepFloorPlan.png"> <p>
@@ -37,3 +37,5 @@ B1: Tạo hình dạng shape từ hình bình hành trước đó sau đó tạo
 B2: chạy hàm để tạo script của shape <p>
 Tạo script shape với hình dạng polygon ghi vào file <p>
 
+### Tạo script Place Pin
+<img src="./img/img_0608_PlacePinForShape.png"> <p>
