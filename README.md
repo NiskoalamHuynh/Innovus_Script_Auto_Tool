@@ -10,6 +10,7 @@ autoTool : init run Innovus <p>
 
 ## Documentation
 * [Create Shape](#createShape)
+* [Create Place Pin](#createPin)
 
 ## Từng bước FloorPlan:
 <img src="./img/img_0608_StepFloorPlan.png"> <p>
@@ -58,5 +59,6 @@ Tạo script shape với hình dạng polygon ghi vào file <p>
 Yêu cầu đặt pin ở layer M4 hoặc M5 <p>
 Size Depth: 0.25 width: 0.05 (Nhân 2 cho with ở group D) <p>
 
+<a name="createPin"></a>
 ### Tạo script Place Pin
 <img src="./img/img_0608_PlacePinForShape.png"> <p>
