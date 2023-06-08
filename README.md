@@ -9,7 +9,7 @@ autoTool : init run Innovus <p>
 # Hàm quan trọng trong việc FloorPlan
 
 ## Documentation
-* [Create Shape](#Create Shape)
+* [Create\sShape](#Create Shape)
 
 ## Từng bước FloorPlan:
 <img src="./img/img_0608_StepFloorPlan.png"> <p>
