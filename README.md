@@ -9,7 +9,7 @@ autoTool : init run Innovus <p>
 # Hàm quan trọng trong việc FloorPlan
 
 ## Documentation
-* [Create\sShape](#Create Shape)
+* [Create Shape](#createShape)
 
 ## Từng bước FloorPlan:
 <img src="./img/img_0608_StepFloorPlan.png"> <p>
@@ -26,6 +26,7 @@ autoTool : init run Innovus <p>
 <img src="./img/img_0608_StepFloorPlanRule.png"> <p>
 10. Thiết đặt rule cho đường clock và signal
 
+<a name="createShape"></a>
 ## Create Shape
 ### Mẫu yêu thiết kế hình dạng
 <img src="./img/img_0608_ExFloorPlan.png"> <p>
