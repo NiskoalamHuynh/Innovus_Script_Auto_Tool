@@ -8,7 +8,7 @@ autoTool : init run Innovus <p>
 
 # Hàm quan trọng trong việc FloorPlan
 
-### Từng bước FloorPlan:
+## Từng bước FloorPlan:
 <img src="./img/img_0608_StepFloorPlan.png"> <p>
 1. Create Shape FloorPlan (Tạo hình dạng)
 2. Place pin for shape (Đặt pin cho shape)
@@ -23,6 +23,8 @@ autoTool : init run Innovus <p>
 <img src="./img/img_0608_StepFloorPlanRule.png"> <p>
 10. Thiết đặt rule cho đường clock và signal
 
+## Create Shape
+
 ### Tạo script Shape FloorPlan
 <img src="./img/img_0608_GenScriptCreateFloorPlanShape.png"> <p>
 
@@ -36,6 +38,8 @@ Tạo script shape với hình dạng hình bình hành cơ bản gồm: hình v
 B1: Tạo hình dạng shape từ hình bình hành trước đó sau đó tạo hình polygon thông qua GUI <p>
 B2: chạy hàm để tạo script của shape <p>
 Tạo script shape với hình dạng polygon ghi vào file <p>
+
+## Create Place Pin
 
 ### Tạo script Place Pin
 <img src="./img/img_0608_PlacePinForShape.png"> <p>
