@@ -35,7 +35,7 @@ Setup đường power M5
 >set   width    [expr 4.5]<p>
 >set   spacing  [expr 0.5]<p>
 >addStripe \<p>
->-nets                            {VDD VSS} \<p>
+>\-nets                            {VDD VSS} \<p>
 >-layer                           M5 \<p>
 >-direction                       Vertical \<p>
 >-width                           $width \<p>
@@ -54,6 +54,7 @@ Hình ảnh cho layer M5:<p>
 
 Trong innovusTCR có function createPinBlk tạo các block không cho pin đặt vào, dựa vào tính năng này ta kết hợp dbShape để vẻ vỏ bọc cho power mesh M5 và ta chọn lại vị trí rãi pin, khi tool rãi nó tự né khu vực powermesh này <p>
 <img src="./img/img_0615_LayerM5_BlkPin.png"> <p>
+Đường Blk có màu sáng hơn màu của power mesh M5
 
 >proc is_createPinBlkPower {} {<p>
 >    foreach a [dbShape [dbget [dbget top.pgNets.sWires.layer.name -regexp M5 -p2].box] SIZEX 0.5] {<p>
@@ -62,6 +63,8 @@ Trong innovusTCR có function createPinBlk tạo các block không cho pin đặ
 >}<p>
 
 Giải thích lệnh: <p>
+editSelect -net 
+editDelete -selected 
 
 
 
