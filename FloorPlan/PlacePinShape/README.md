@@ -23,11 +23,11 @@ Size Depth: 0.25 width: 0.05 (Nhân 2 cho with ở group D) <p>
 <a name="howToPlacePin"></a>
 ## Layer FloorPlan
 Layer M1:
->=============================================
-> CREATE M1 and M2 RAIL
->=============================================
->sroute -connect corePin -crossoverViaBottomLayer M1 -crossoverViaTopLayer M3 -nets {VDD VSS} -corePinLayer M1
->sroute -connect corePin -crossoverViaBottomLayer M2 -crossoverViaTopLayer M3 -nets {VDD VSS} -corePinLayer M2
+>============================================= <p>
+> CREATE M1 and M2 RAIL <p>
+>============================================= <p>
+>sroute -connect corePin -crossoverViaBottomLayer M1 -crossoverViaTopLayer M3 -nets {VDD VSS} -corePinLayer M1 <p>
+>sroute -connect corePin -crossoverViaBottomLayer M2 -crossoverViaTopLayer M3 -nets {VDD VSS} -corePinLayer M2 <p>
 
 Layer M2:
 Layer M3:
