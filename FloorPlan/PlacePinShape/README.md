@@ -34,17 +34,17 @@ Setup đường power M5
 >=============================================<p>
 >set   width    [expr 4.5]<p>
 >set   spacing  [expr 0.5]<p>
->addStripe \<p>
->nets                            {VDD VSS} \<p>
->layer                           M5 \<p>
->direction                       Vertical \<p>
->width                           $width \<p>
->spacing                         $spacing \<p>
->stacked_via_top_layer           M6 \<p>
->stacked_via_bottom_layer        M4 \<p>
->create_pins                     1 \<p>
->start_offset                    0 \<p>
->set_to_set_distance             30 \<p>
+>addStripe <p>
+>nets                            {VDD VSS} <p>
+>layer                           M5 <p>
+>direction                       Vertical <p>
+>width                           $width <p>
+>spacing                         $spacing <p>
+>stacked_via_top_layer           M6 <p>
+>stacked_via_bottom_layer        M4 <p>
+>create_pins                     1 <p>
+>start_offset                    0 <p>
+>set_to_set_distance             30 <p>
 >extend_to                       design_boundary<p>
 
 Hình ảnh cho layer M5:<p>
